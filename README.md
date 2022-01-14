@@ -1,0 +1,1 @@
+# grails-4-inheritance-cache-bug
