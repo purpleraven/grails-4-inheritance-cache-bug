@@ -1,9 +1,13 @@
 package cache.test
 
-abstract class TestA {
+class TestA {
     String pp
 
     static constraints = {
         pp nullable: true
+    }
+
+    static mapping = {
+        cache 'nonstrict-read-write'
     }
 }
